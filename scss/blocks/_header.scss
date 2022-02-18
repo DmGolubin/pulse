@@ -1,0 +1,43 @@
+.header {
+  position: absolute;
+  padding-top: 20px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.header__logo {
+  width: 250px;
+}
+
+.header__logo-img {
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__official {
+  font-weight: 500;
+  font-size: 12px;
+  width: 215px;
+  span {
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+.header__number {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}

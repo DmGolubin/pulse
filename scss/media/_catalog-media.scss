@@ -1,0 +1,19 @@
+@media (max-width: 974px) {
+  .catalog__items {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 690px) {
+  .catalog__title {
+    font-size: 24px;
+  }
+  .catalog__tabs {
+    margin: 30px 0 34px;
+  }
+  .catalog__tab {
+    width: 190px;
+    height: 46px;
+    font-size: 16px;
+  }
+}
